@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Poppins", "Arial", "sans-serif";
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+
+
+}
+.container{
+    width: 90%;
+    max-width: 372px;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid none;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+
+    
+}
+
+.container:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.design{
+    font-size: 13px;
+    border: none;
+    width: 80px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 18%;
+    margin: 10px 5px;
+    color: rgb(119, 55, 119);
+    text-align: center;
+    font-weight: bold;
+}
+.design:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+h1{
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+.author{
+    color: #555;
+}
+.description{
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+    
+}
+
+hr{
+    margin: 15px 0;
+    color: rgb(122, 122, 122);
+    border: none;
+    border-top: 2px solid rgb(122, 122, 122);
+}
+
+
